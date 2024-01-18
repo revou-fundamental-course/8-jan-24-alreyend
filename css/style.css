@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 100%;
+    background-color: #2274A5;
+}
+.banner h1 {
+    color: #fff;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background:  #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.container h3 {
+    text-align: center;
+}
+.container p {
+    text-align: center;
+}
+.boxs {
+    width: 100%;
+    display:grid;
+    list-style-type: none;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 10px;
+}
+.boxs box {
+    width: 100%;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #2274A5;
+}
+header {
+    border-bottom: 2px solid gray;
+}
+#Judul {
+    color: #fff;
+    width: 100%;
+    font-size: large;
+    cursor: pointer;
+    text-align: center;
+    background-color: #2274A5;
+}
+#Rumus {
+    font-weight: bolder;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxs box p {
+    text-align: left;
+}
+#Hitung {
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+#nilaisisi1 {
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+}
+#nilaisisi2 {
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+}
+.buttons {
+    display: flex;
+    grid-gap: 10px;
+}
+.buttons button {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+#countButton {
+    color: #fff;
+    background-color: #2274A5;
+}
+#resetButton {
+    background-color: yellow;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KATIK</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="banner">
+        <br>
+        <h1>KATIK Kalkulator Matematika</h1>
+        <br>
+        <div class="container">
+            <h3>Welcome to KATIK</h3>
+            <p>Hai Sobat, Selamat datang di KATIK<br>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling persegi</p>
+            <br>
+            <div class="boxs">
+                <box>
+                    <header>
+                        <p id="Judul">Luas Persegi</p>
+                        <br>
+                        <img src="Persegi.jpg">
+                        <br>
+                        <p>Rumus Luas Persegi yaitu:</p>
+                        <br>
+                        <p id="Rumus">L = S x S</p>
+                        <br>
+                        <p>Dimana:</p>
+                        <p>L = Luas</p>
+                        <p>S = Sisi</p>
+                    </header>
+                    <p id="Hitung">Hitung Luas Persegi</p>
+                    <input id="nilaisisi1" name="nilaisisi1" placeholder="Nilai Sisi" type="number">
+                    <div class="buttons">
+                        <button id="countButton" onclick="calculateArea1()">Hitung</button>
+                        <button id="resetButton" onclick="resetArea1()">Reset</button>
+                    </div>
+                    <div id="result1"></div>
+                </box>
+                <box>
+                    <header>
+                        <p id="Judul">Keliling Persegi</p>
+                        <br>
+                        <img src="Persegi.jpg">
+                        <br>
+                        <p>Rumus Keliling Persegi yaitu:</p>
+                        <br>
+                        <p id="Rumus">K = 4 x S</p>
+                        <br>
+                        <p>Dimana:</p>
+                        <p>K = Keliling</p>
+                        <p>S = Sisi</p>
+                    </header>
+                    <p id="Hitung">Hitung Keliling Persegi</p>
+                    <input id="nilaisisi2" name="nilaisisi2" placeholder="Nilai Sisi" type="number">
+                    <div class="buttons">
+                        <button id="countButton" onclick="calculateArea2()">Hitung</button>
+                        <button id="resetButton" onclick="resetArea2()">Reset</button>
+                    </div>
+                    <div id="result2"></div>
+                </box>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </div>
+</body>
+</html>
